@@ -8,4 +8,9 @@ It follows a 2 step process:
 2. Getting response 
 
 
-**Sending Data**
+### Sending Data
+sending data is done by calling the `openOkraWidget(Option option)` javascript function on the page, the functionn takes an option paramater.
+**note :** this call should be fired when the page has fully loaded (onPageLoad).
+
+### Getting response
+
