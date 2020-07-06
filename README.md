@@ -9,8 +9,15 @@ It follows a 2 step process:
 
 
 ### Sending Data
-sending data is done by calling the `openOkraWidget(Option option)` javascript function on the page, the functionn takes an option paramater.
+sending data is done by calling the `openOkraWidget(Option option)` javascript function of the page, the functionn takes an option paramater.
 **note :** this call should be fired when the page has fully loaded (onPageLoad).
 
 ### Getting response
+There are 3 response that are available by the `mobile.okra.ng`, they are:
+
+1. OnSuccess
+2. OnError
+3. OnClose
+
+####OnSuccess 
 
