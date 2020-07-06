@@ -64,7 +64,7 @@ for **IOS** this the handler:
 |  `limit`                | `Number`       | false               | 24                  | Statement length
 |  `filter`               | `Object`       | false               |                     | Filter for widget
 |  `corporate`            | `Boolen`       | false               | `false`             | Corporate or Individual account
-|  `connect-message`      | `String`       | false               |                     | Instruction to connnect account
+|  `connectMessage`      | `String`       | false               |                     | Instruction to connnect account
 |  `guarantors`            | `Object`       | false              |                     | 
 |  `widget_success`       | `String`       | false               |                     | Widget Success Message
 |  `widget_failed`        | `String`       | false               |                     | Widget Failed Message
