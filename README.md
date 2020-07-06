@@ -38,7 +38,7 @@ for **IOS** this the handler:
 ` window.webkit.messageHandlers.jsErrorMessageHandler.postMessage(JSON.stringify(json))`
 
 #### OnClose
-OnClose is closed when the widget closes. This should hold what happens when the widget closes e.g switch to another page.
+OnClose is called when the widget closes. This should hold what happens when the widget closes e.g switch to another page.
 
 for **android** this is the handler:
      `Android.onClose(JSON.stringify(json))`
