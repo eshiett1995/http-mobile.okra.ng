@@ -1,4 +1,4 @@
-#mobile.okra.ng
+# mobile.okra.ng
 Okra HTML page for webview
 
 This page enable you to connect your applications to Okra as it fully supports webview for all mobile platform/frameworks.
@@ -24,6 +24,24 @@ OnSuccess sends back the response of the okra process, this include the `auth` `
 
 for **android** this is the handler:
      `Android.onSuccess(JSON.stringify(json))`
+     
+for **IOS** this the handler:
+`window.webkit.messageHandlers.jsMessageHandler.postMessage(JSON.stringify(json))`
+
+#### OnError 
+OnError sends back the error response of the okra process.
+
+for **android** this is the handler:
+     `Android.onError(JSON.stringify(json))`
+     
+for **IOS** this the handler:
+` window.webkit.messageHandlers.jsErrorMessageHandler.postMessage(JSON.stringify(json))`
+
+#### OnClose
+OnClose is closed when the widget closes. This should hold what happens when the widget closes e.g switch to another page.
+
+for **android** this is the handler:
+     `Android.onClose(JSON.stringify(json))`
      
 for **IOS** this the handler:
 `window.webkit.messageHandlers.jsMessageHandler.postMessage(JSON.stringify(json))`
