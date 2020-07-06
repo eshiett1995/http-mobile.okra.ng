@@ -18,6 +18,7 @@ There are 3 response that are available by the `mobile.okra.ng`, they are:
 1. OnSuccess
 2. OnError
 3. OnClose
+**note :** `onSuccess` and `OnError` gets called before the OnClose, so adding a flag to help you distiguish what onClose should do if OnSuccess or OnError may be needed.
 
 #### OnSuccess 
 OnSuccess sends back the response of the okra process, this include the `auth` `identity` `balance` and `transaction`.
