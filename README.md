@@ -19,5 +19,12 @@ There are 3 response that are available by the `mobile.okra.ng`, they are:
 2. OnError
 3. OnClose
 
-####OnSuccess 
+#### OnSuccess 
+OnSuccess sends back the response of the okra process, this include the `auth` `identity` `balance` and `transaction`.
+
+for android this is the handler:
+     `Android.onSuccess(JSON.stringify(json))`
+     
+for IOS this the handler:
+`window.webkit.messageHandlers.jsMessageHandler.postMessage(JSON.stringify(json))`
 
