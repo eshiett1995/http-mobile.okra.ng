@@ -58,7 +58,7 @@ for **IOS** this the handler:
 |  `redirect_url `        | `string`       | false                |  undefined          | 
 |  `key `                 | `String`       | true                |  undefined          | Your public key from Okra.
 |  `token `               | `String`       | true                |  undefined          | Your token from your Okra Dashboard.
-|  `products`             | `Array`.       | true                |  `['auth']`          | The Okra products you want to use with the widget. `['auth', 'balance', 'identity', 'transaction']`
+|  `products`             | `Array`.       | true                |  `['auth']`          | The Okra products you want to use with the widget. `['auth', 'balance', 'identity', 'transactions']`
 |  `env`                  | `String`       | true                | `production`           |  `production` or `production-sandbox`
 |  `clientName`          | `String`        | true               |  `This client`       | Name on the widget
 |  `logo `                | `String(URL)`  | false               | Okra's Logo         | 
