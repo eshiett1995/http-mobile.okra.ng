@@ -46,3 +46,30 @@ for **android** this is the handler:
 for **IOS** this the handler:
 `window.webkit.messageHandlers.jsMessageHandler.postMessage(JSON.stringify(json))`
 
+
+## Option
+
+|Name                     | Type           | Required            | Default Value       | Description         |
+|-----------------------  |----------------|---------------------|---------------------|---------------------|
+|  `isWebview`             |`boolean`        | true              | false               | tells okras widget if this is from a webview
+|    `source`            | `string`          | true              |  `''`                | used to determine which platform and and how the widget responds `android` or `ios`
+|  `callback-url `        | `string`       | true                |  undefined          | 
+|  `key `                 | `String`       | true                |  undefined          | Your public key from Okra.
+|  `token `               | `String`       | true                |  undefined          | Your token from your Okra Dashboard.
+|  `products`             | `Array`.       | true                |  `['auth']`          | The Okra products you want to use with the widget. `['auth', 'balance', 'identity', 'transaction']`
+|  `env`                  | `String`       | true                | `production`           |  `production` or `production-sandbox`
+|  `clientName`          | `String`       | false               |  `This client`       | Name on the widget
+|  `logo `                | `String(URL)`  | false               | Okra's Logo         | 
+|  `color`                | `HEX   `       | false               | #3AB795             | Theme on the widget 
+|  `limit`                | `Number`       | false               | 24                  | Statement length
+|  `filter`               | `Object`       | false               |                     | Filter for widget
+|  `corporate`            | `Boolen`       | false               | `false`             | Corporate or Individual account
+|  `connect-message`      | `String`       | false               |                     | Instruction to connnect account
+|  `guarantors`            | `Object`       | false              |                     | 
+|  `widget_success`       | `String`       | false               |                     | Widget Success Message
+|  `widget_failed`        | `String`       | false               |                     | Widget Failed Message
+|  `currency`             | `String`       | false               | NGN                 | Wallet to bill
+|  `exp`                  | `Date`         | false               | Won't expire        | Expirary date of widget
+
+
+
