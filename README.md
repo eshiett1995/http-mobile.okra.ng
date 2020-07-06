@@ -54,13 +54,13 @@ for **IOS** this the handler:
 |-----------------------  |----------------|---------------------|---------------------|---------------------|
 |  `isWebview`             |`boolean`        | true              | false               | tells okras widget if this is from a webview
 |    `source`            | `string`          | true              |  `''`                | used to determine which platform and and how the widget responds `android` or `ios`
-|  `callback_url `        | `string`       | true                |  undefined          | 
-|  `redirect_url `        | `string`       | true                |  undefined          | 
+|  `callback_url `        | `string`       | false                |  undefined          | 
+|  `redirect_url `        | `string`       | false                |  undefined          | 
 |  `key `                 | `String`       | true                |  undefined          | Your public key from Okra.
 |  `token `               | `String`       | true                |  undefined          | Your token from your Okra Dashboard.
 |  `products`             | `Array`.       | true                |  `['auth']`          | The Okra products you want to use with the widget. `['auth', 'balance', 'identity', 'transaction']`
 |  `env`                  | `String`       | true                | `production`           |  `production` or `production-sandbox`
-|  `clientName`          | `String`       | false               |  `This client`       | Name on the widget
+|  `clientName`          | `String`        | true               |  `This client`       | Name on the widget
 |  `logo `                | `String(URL)`  | false               | Okra's Logo         | 
 |  `color`                | `HEX   `       | false               | #3AB795             | Theme on the widget 
 |  `limit`                | `Number`       | false               | 24                  | Statement length
