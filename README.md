@@ -53,7 +53,8 @@ for **IOS** this the handler:
 |-----------------------  |----------------|---------------------|---------------------|---------------------|
 |  `isWebview`             |`boolean`        | true              | false               | tells okras widget if this is from a webview
 |    `source`            | `string`          | true              |  `''`                | used to determine which platform and and how the widget responds `android` or `ios`
-|  `callback-url `        | `string`       | true                |  undefined          | 
+|  `callback_url `        | `string`       | true                |  undefined          | 
+|  `redirect_url `        | `string`       | true                |  undefined          | 
 |  `key `                 | `String`       | true                |  undefined          | Your public key from Okra.
 |  `token `               | `String`       | true                |  undefined          | Your token from your Okra Dashboard.
 |  `products`             | `Array`.       | true                |  `['auth']`          | The Okra products you want to use with the widget. `['auth', 'balance', 'identity', 'transaction']`
@@ -68,6 +69,8 @@ for **IOS** this the handler:
 |  `guarantors`            | `Object`       | false              |                     | 
 |  `widget_success`       | `String`       | false               |                     | Widget Success Message
 |  `widget_failed`        | `String`       | false               |                     | Widget Failed Message
+|  `success_title`       | `String`       | false               |                     | Widget Success Message
+|  `success_message`        | `String`       | false               |                     | Widget Failed Message
 |  `currency`             | `String`       | false               | NGN                 | Wallet to bill
 |  `exp`                  | `Date`         | false               | Won't expire        | Expirary date of widget
 
