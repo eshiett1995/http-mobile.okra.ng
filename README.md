@@ -4,11 +4,11 @@ Okra HTML page for webview
 This page enable you to connect your applications to Okra as it fully supports webview for all mobile platform/frameworks.
 It follows a 2 step process:
 
-1. Sending data
+1. Opening the widget/Sending data
 2. Getting response 
 
 
-### Sending Data
+### Opening the widget/Sending data
 sending data is done by calling the `openOkraWidget(Option option)` javascript function of the page, the functionn takes an option paramater.
 **note :** this call should be fired when the page has fully loaded (onPageLoad).
 
