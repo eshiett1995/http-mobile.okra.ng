@@ -1,5 +1,6 @@
 # mobile.okra.ng
-Okra HTML page for webview
+Okra HTML page for webview.
+
 
 This page enable you to connect your applications to Okra as it fully supports webview for all mobile platform/frameworks.
 It follows a 2 step process:
@@ -9,11 +10,11 @@ It follows a 2 step process:
 
 
 ### Opening the widget/Sending data
-sending data is done by calling the `openOkraWidget(Option option)` javascript function of the page, the functionn takes an option paramater.
+sending data is done by calling the `openOkraWidget(Option option)` javascript function of the page, the function takes an option paramater.
 **note :** this call should be fired when the page has fully loaded (onPageLoad).
 
 ### Getting response
-There are 3 response that are available by the `mobile.okra.ng`, they are:
+There are 3 response that are available by the `mobile.okra.ng` which would be send to android using the `Android` and `window.webkit.messageHandlers.jsMessageHandler` bridge for android and ios devices respectively, they are:
 
 1. OnSuccess
 2. OnError
