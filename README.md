@@ -1,4 +1,4 @@
-# mobile.okra.ng
+# http://v2-mobile.okra.ng/
 Okra HTML page for webview.
 
 
